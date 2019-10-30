@@ -8,6 +8,14 @@ body {
     opacity: 0.8;
 }
 
+h4 {
+    text-align: center;    
+    font-family: 'Dancing Script', oblique;
+    font-size: 2.5em;
+    color: black;
+    text-shadow: 1px 1px 2px white, 0 0 25px #ffffff;    
+}
+
 p, h2 {
     text-align: center;
 }
@@ -21,12 +29,19 @@ p, h2 {
     height: 30px;
 }
 
+.lang {
+    font-family: 'Dancing Script', oblique;
+    color: black;
+    text-shadow: 1px 1px 2px white, 0 0 25px #ffffff;    
+}
+
 .head1 {
     text-align: center;    
     font-family: 'Dancing Script', oblique;
     font-size: 4em;
     color: black;
     text-shadow: 1px 1px 2px white, 0 0 25px #ffffff;
+    transform: translate(-0.4em, 0em);
 }
 
 .head2 {
@@ -35,21 +50,14 @@ p, h2 {
     font-size: 4em;
     color: black;
     text-shadow: 1px 1px 2px white, 0 0 25px #ffffff;
+    transform: translate(-0.4em, 0em);
 }
 
 .fa-envelope, .fa-linkedin-square, .fa-github {
     font-size: 50px;
 }
 
-.glow {
-    font-family: 'Dancing Script', oblique;
-    text-align: center;
-    font-size: 3em;
-    color: black;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-}
+
 
 #btn {
     background-color: black;
@@ -67,7 +75,17 @@ a {
 .card-body {
     text-align: center;
 }
-  
+
+.glow {
+    font-family: 'Dancing Script', oblique;
+    text-align: center;
+    font-size: 3.5em;
+    color: black;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}  
+
 @-webkit-keyframes glow {
     from {
       text-shadow: 1px 1px 2px white, 0 0 25px #ffffff;
@@ -89,6 +107,7 @@ a {
         font-size: 3em;
         color: black;
         text-shadow: 1px 1px 2px white, 0 0 25px #ffffff;
+        transform: translate(-1.4em, 0em);
     }
 
     .head2 {
@@ -97,6 +116,7 @@ a {
         font-size: 3em;
         color: black;
         text-shadow: 1px 1px 2px white, 0 0 25px #ffffff;
+        transform: translate(-1.4em, 0em);
     }
 
     .fa-envelope, .fa-linkedin-square, .fa-github {
@@ -117,17 +137,19 @@ a {
     .head1 {
         text-align: center;    
         font-family: 'Dancing Script', oblique;
-        font-size: 3em;
+        font-size: 2.5em;
         color: black;
         text-shadow: 1px 1px 2px white, 0 0 25px #ffffff;
+        transform: translate(0.6em, 0em);
     }
 
     .head2 {
         text-align: center;    
         font-family: 'Dancing Script', oblique;
-        font-size: 3em;
+        font-size: 2.5em;
         color: black;
         text-shadow: 1px 1px 2px white, 0 0 25px #ffffff;
+        transform: translate(1.6em, 0em);
     }
 
     .fa-envelope, .fa-linkedin-square, .fa-github {
@@ -149,17 +171,19 @@ a {
     .head1 {
         text-align: center;    
         font-family: 'Dancing Script', oblique;
-        font-size: 2em;
+        font-size: 2.5em;
         color: black;
         text-shadow: 1px 1px 2px white, 0 0 25px #ffffff;
+        transform: translate(-0.4em, 0em);
     }
 
     .head2 {
         text-align: center;    
         font-family: 'Dancing Script', oblique;
-        font-size: 2em;
+        font-size: 2.5em;
         color: black;
         text-shadow: 1px 1px 2px white, 0 0 25px #ffffff;
+        transform: translate(-0.4em, 0em);
     }
 
     .fa-envelope, .fa-linkedin-square, .fa-github {
@@ -187,14 +211,16 @@ a {
         font-size: 2em;
         color: black;
         text-shadow: 1px 1px 2px white, 0 0 25px #ffffff;
+        transform: translate(-0.4em, 0em);
     }
 
     .head2 {
         text-align: center;    
         font-family: 'Dancing Script', oblique;
-        font-size: 1.5em;
+        font-size: 2em;
         color: black;
         text-shadow: 1px 1px 2px white, 0 0 25px #ffffff;
+        transform: translate(-0.4em, 0em);
     }
 
     .fa-envelope, .fa-linkedin-square, .fa-github {
